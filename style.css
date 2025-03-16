@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* General styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Container styling */
+.container {
+    max-width: 600px;
+    width: 100%;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+}
+
+/* Hover effect for container */
+.container:hover {
+    transform: scale(1.02);
+}
+
+/* Heading styles */
+h1, h2 {
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+/* Form group styling */
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* Label styling */
+.form-group label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+    font-weight: bold;
+}
+
+/* Input field styling */
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+/* Input field focus styling */
+.form-group input:focus {
+    border-color: #5cb85c;
+    outline: none;
+}
+
+/* Button styling */
+button {
+    width: 100%;
+    padding: 15px;
+    background: linear-gradient(45deg, #6a1b9a, #8e24aa);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background 0.3s ease-in-out;
+    margin-top: 10px;
+}
+
+/* Button hover effect */
+button:hover {
+    background: linear-gradient(45deg, #8e24aa, #6a1b9a);
+}
+
+/* Disabled button styling */
+button:disabled {
+    background: #ccc;
+    cursor: not-allowed;
+}
+
+/* Clear button styling */
+.clear-btn {
+    background: linear-gradient(45deg, #d9534f, #c9302c);
+}
+
+/* Clear button hover effect */
+.clear-btn:hover {
+    background: linear-gradient(45deg, #c9302c, #d9534f);
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+/* Table cell styling */
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+/* Table header styling */
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+/* Table header background color */
+thead {
+    background-color: #f7f7f7;
+    font-weight: bold;
+}
+
+/* Table row hover effect */
+tbody tr:hover {
+    background-color: #f1f1f1;
+}

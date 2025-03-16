@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Data Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>User Data Form</h1>
+        <!-- User data input form -->
+        <form id="userForm">
+            <div class="form-group">
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName" name="firstName" required>
+                <small class="error" id="firstNameError"></small> <!-- Error message for first name -->
+            </div>
+            <div class="form-group">
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName" name="lastName" required>
+                <small class="error" id="lastNameError"></small> <!-- Error message for last name -->
+            </div>
+            <div class="form-group">
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" required>
+                <small class="error" id="ageError"></small> <!-- Error message for age -->
+            </div>
+            <button type="submit">Submit</button> <!-- Submit button -->
+        </form>
+        <h2>Users List</h2>
+        <!-- Table to display user data -->
+        <table id="usersTable">
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        <button id="clearDataButton" class="clear-btn">Clear All Data</button> <!-- Clear all data button -->
+    </div>
+
+    <script src="script.js"></script> <!-- Link to external JavaScript file -->
+</body>
+</html>
